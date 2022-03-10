@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Cps2cGroup3">
+  <grid id="27dc6" binding="mainPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="10" y="20" width="510" height="92"/>
+    </constraints>
+    <properties>
+      <background color="-4477385"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="5c26f" class="javax.swing.JLabel" binding="integerlable">
+        <constraints/>
+        <properties>
+          <foreground color="-4513765"/>
+          <iconTextGap value="5"/>
+          <text value="Enter a number"/>
+          <toolTipText value="Please this field requires only numbers"/>
+        </properties>
+      </component>
+      <component id="768d3" class="javax.swing.JTextField" binding="int_btn">
+        <constraints/>
+        <properties>
+          <background color="-1049345"/>
+          <columns value="16"/>
+          <text value=""/>
+          <toolTipText value="only integers"/>
+        </properties>
+      </component>
+      <component id="5cd1e" class="javax.swing.JLabel" binding="accum_lable">
+        <constraints/>
+        <properties>
+          <background color="-15921393"/>
+          <foreground color="-4513765"/>
+          <text value="Accumulated Sum"/>
+        </properties>
+      </component>
+      <component id="dfb13" class="javax.swing.JTextField" binding="textAcum">
+        <constraints/>
+        <properties>
+          <caretColor color="-1049345"/>
+          <columns value="16"/>
+          <editable value="false"/>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
